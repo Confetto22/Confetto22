@@ -31,7 +31,7 @@ I’m a dedicated full-stack developer focused on building high-performance, sca
 
 ### 🌟 Fiverr Recognition
 
-<a href="https://www.fiverr.com/sellers/enoch_agyei/edit">
+<a href="https://www.fiverr.com/enoch_agyei">
   <img src="https://img.shields.io/badge/FIVERR-%231DBF73.svg?&style=for-the-badge&logo=fiverr&logoColor=white" alt="Fiverr">
 </a></br>
 <strong>Level One Seller</strong> with 10+ completed projects and 100% client satisfaction rate. Specializing in:
@@ -47,7 +47,7 @@ I’m a dedicated full-stack developer focused on building high-performance, sca
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/justice-bajeri/)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white&style=for-the-badge)](https://x.com/i_confetto)
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white&style=for-the-badge)](mailto:enoch.dev@gmail.com)
-[![Fiverr](https://img.shields.io/badge/Fiverr-1DBF73?logo=fiverr&logoColor=white&style=for-the-badge)](https://www.fiverr.com/sellers/enoch_agyei/edit)
+[![Fiverr](https://img.shields.io/badge/Fiverr-1DBF73?logo=fiverr&logoColor=white&style=for-the-badge)](https://www.fiverr.com/enoch_agyei)
 
 ---
 
