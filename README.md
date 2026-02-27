@@ -3,7 +3,7 @@
   Hey there, I'm Enoch Agyei 🇬🇭
 </h1>
 
-<h3 align="left">🚀 Full-Stack Developer | 🏆 Level One Fiverr Seller</h3>
+<h3 align="left">🚀 Full-Stack Developer 🏆 </h3>
 
 ---
 
