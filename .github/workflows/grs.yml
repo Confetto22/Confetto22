@@ -1,0 +1,65 @@
+name: Update README Cards
+
+on:
+  schedule:
+    # Runs daily at 3:00 AM UTC
+    - cron: "0 3 * * *"
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # --- Stats Card ---
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=transparent&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&include_all_commits=true&show=reviews,prs_merged,prs_merged_percentage&rank_icon=github
+          path: profile/stats.svg
+          token: ${{ secrets.GH_TOKEN }}
+
+      # --- Top Languages Card ---
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&theme=transparent&bg_color=0D1117&title_color=58A6FF&langs_count=8&size_weight=0.5&count_weight=0.5
+          path: profile/top-langs.svg
+          token: ${{ secrets.GH_TOKEN }}
+
+      # --- Pinned Repo Cards ---
+      - name: Generate pin card - new-jandas-backend
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=new-jandas-backend&theme=transparent&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB
+          path: profile/pin-new-jandas-backend.svg
+          token: ${{ secrets.GH_TOKEN }}
+
+      - name: Generate pin card - mei-backend
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=mei-backend&theme=transparent&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB
+          path: profile/pin-mei-backend.svg
+          token: ${{ secrets.GH_TOKEN }}
+
+      - name: Generate pin card - new-jandas-frontend
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=new-jandas-frontend&theme=transparent&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB
+          path: profile/pin-new-jandas-frontend.svg
+          token: ${{ secrets.GH_TOKEN }}
+
+      # --- Commit & Push ---
+      - name: Commit updated cards
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "chore: update README stat cards" || exit 0
+          git push
