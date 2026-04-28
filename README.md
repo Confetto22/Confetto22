@@ -55,32 +55,14 @@ I’m a dedicated full-stack developer focused on building high-performance, sca
 
 <p align="left">
   <a href="https://github.com/Confetto22">
-    <img height="180em" src="./profile/stats.svg" alt="Enoch's GitHub Stats" />
-    <img height="180em" src="./profile/top-langs.svg" alt="Top Languages" />
+    <img height="180em" src="https://github-readme-stats-navy-seven-21.vercel.app/api?username=Confetto22&show_icons=true&theme=cobalt&include_all_commits=true&show=prs_merged,prs_merged_percentage" />
+    <img height="180em" src="https://github-readme-stats-navy-seven-21.vercel.app/api/top-langs?username=Confetto22&layout=compact&theme=cobalt&langs_count=10" />
   </a>
+ 
 </p>
 
 <p align="left">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Confetto22&theme=transparent&background=0D1117&stroke=58A6FF" alt="GitHub Streak" />
-</p>
-
----
-
-### 📌 Featured Projects
-
-<p align="left">
-  <a href="https://github.com/Confetto22/new-jandas-backend">
-    <img align="center" src="./profile/pin-new-jandas-backend.svg" alt="new-jandas-backend" />
-  </a>
-  <a href="https://github.com/Confetto22/mei-backend">
-    <img align="center" src="./profile/pin-mei-backend.svg" alt="mei-backend" />
-  </a>
-</p>
-<br/>
-<p align="left">
-  <a href="https://github.com/Confetto22/new-jandas-frontend">
-    <img align="center" src="./profile/pin-new-jandas-frontend.svg" alt="new-jandas-frontend" />
-  </a>
 </p>
 
 ---
