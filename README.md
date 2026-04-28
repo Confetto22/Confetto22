@@ -55,14 +55,16 @@ I’m a dedicated full-stack developer focused on building high-performance, sca
 
 <p align="left">
   <a href="https://github.com/Confetto22">
-    <img height="180em" src="https://github-readme-stats-navy-seven-21.vercel.app/api?username=Confetto22&show_icons=true&theme=cobalt&include_all_commits=true&show=prs_merged,prs_merged_percentage" />
-    <img height="180em" src="https://github-readme-stats-navy-seven-21.vercel.app/api/top-langs?username=Confetto22&layout=compact&theme=cobalt&langs_count=10" />
+    <img height="180em" src="https://github-readme-stats-navy-seven-21.vercel.app/api?username=Confetto22&show_icons=true&theme=github_dark_dimmed&include_all_commits=true&show=prs_merged,prs_merged_percentage" />
+    <img height="180em" src="https://github-readme-stats-navy-seven-21.vercel.app/api/top-langs?username=Confetto22&layout=compact&theme=github_dark_dimmed&langs_count=10" />
+   
   </a>
  
 </p>
 
 <p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Confetto22&theme=transparent&background=0D1117&stroke=58A6FF" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Confetto22&theme=github_dark_dimmed" alt="GitHub Streak" />
+  
 </p>
 
 ---
